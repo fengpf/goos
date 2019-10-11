@@ -3,7 +3,7 @@
 ### go源码编译
 ```
 $ https://github.com/fengpf/goos.git
-$ cd go1.10.1/src
+$ cd goos/go1.10.1/src
 
 $ GOROOT_BOOTSTRAP=./ GO_GCFLAGS="-N -l" ./make.bash
 ```
@@ -20,8 +20,8 @@ $ export GOPATH=/data/app/go/src/goos
 
 ### 系统启动
 ```
-$ cd ../biscuit
-$ GOPATH=$(pwd) make qemu CPUS=2
+$ cd goos/
+$ make qemu CPUS=2
 ```
 
 

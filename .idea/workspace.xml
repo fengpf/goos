@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1608ec6c-65b9-4808-a8a9-c512e22a0dc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/GNUmakefile" beforeDir="false" afterPath="$PROJECT_DIR$/GNUmakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accnt/accnt.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/accnt/accnt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ahci/ahci.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ahci/ahci.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apic/apic.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/apic/apic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apic/ioapic.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/apic/ioapic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bnet/net.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/bnet/net.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bounds/bounds.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/bounds/bounds.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bpath/bpath.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/bpath/bpath.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/circbuf/circbuf.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/circbuf/circbuf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fd/fd.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fd/fd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fdops/fdops.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fdops/fdops.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/bdev.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/bdev.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/bitmap.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/bitmap.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/blk.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/blk.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/cache.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/dir.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/dir.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/fs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/fs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/inode.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/inode.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/log.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/super.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/super.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashtable/hashtable.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashtable/hashtable.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inet/inet.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/inet/inet.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ixgbe/ixgbe.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ixgbe/ixgbe.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kernel/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kernel/syscall.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/syscall.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mem/mem.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/mem.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mkfs/mkfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/mkfs/mkfs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pci/legacydisk.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/pci/legacydisk.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pci/pci.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/pci/pci.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pci/pciide.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/pci/pciide.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proc/oom.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/proc/oom.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proc/proc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/proc/proc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proc/syscalli.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/proc/syscalli.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proc/wait.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/proc/wait.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/res.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/res.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinfo/tinfo.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tinfo/tinfo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ufs/driver.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufs/driver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ufs/image.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufs/image.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ufs/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufs/trace.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ufs/ufs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufs/ufs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unet/unet_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/unet/unet_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unet/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/unet/util.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vm/as.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/vm/as.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vm/pmap.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/vm/pmap.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vm/userbuf.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/vm/userbuf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vm/vm.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/vm/vm.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,21 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GNUmakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+            <state relative-caret-position="-803">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="435">
-                <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="18" />
+              <first_editor relative-caret-position="346">
+                <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -162,14 +115,14 @@
         <option value="$PROJECT_DIR$/src/vm/vm.go" />
         <option value="$PROJECT_DIR$/src/fs/fs.go" />
         <option value="$PROJECT_DIR$/src/mem/mem.go" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/GNUmakefile" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="490" />
-    <option name="y" value="23" />
+    <option name="x" value="348" />
+    <option name="y" value="24" />
     <option name="width" value="1601" />
     <option name="height" value="973" />
   </component>
@@ -193,6 +146,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -231,7 +185,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="490" y="23" width="1601" height="973" extended-state="0" />
+    <frame x="348" y="24" width="1601" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18345094" />
@@ -673,20 +627,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/GNUmakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GNUmakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="346">
+            <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
