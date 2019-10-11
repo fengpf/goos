@@ -2,17 +2,17 @@ package vm
 
 import (
 	"runtime"
- "sync"
- "sync/atomic"
- "time"
+	"sync"
+	"sync/atomic"
+	"time"
 
- "goos/src/bounds"
- "goos/src/defs"
- "goos/src/fdops"
- "goos/src/mem"
- "goos/src/res"
- "goos/src/ustr"
- "goos/src/util"
+	"bounds"
+	"defs"
+	"fdops"
+	"mem"
+	"res"
+	"ustr"
+	"util"
 )
 
 type Vm_t struct {
@@ -443,7 +443,7 @@ func Sys_pgfault(as *Vm_t, vmi *Vminfo_t, faultaddr, ecode uintptr) defs.Err_t {
 			perms |= PTE_COW
 		}
 	}
-	if perms & PTE_W != 0 {
+	if perms&PTE_W != 0 {
 		perms |= PTE_D
 	}
 	perms |= PTE_A

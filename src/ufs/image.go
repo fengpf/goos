@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"goos/src/fs"
-	"goos/src/mem"
-	"goos/src/ustr"
-	"goos/src/util"
+	"fs"
+	"mem"
+	"ustr"
+	"util"
 )
 
 // Disk image layout:

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"goos/src/mem"
-	"goos/src/stats"
-	"goos/src/util"
+	"mem"
+	"stats"
+	"util"
 )
 
 const log_debug = false

@@ -8,15 +8,15 @@ import (
 	"time"
 	"unsafe"
 
-	"goos/src/apic"
-	"goos/src/bnet"
-	"goos/src/bounds"
-	. "goos/src/inet"
-	"goos/src/mem"
-	"goos/src/msi"
-	"goos/src/pci"
-	"goos/src/res"
-	"goos/src/stats"
+	"apic"
+	"bnet"
+	"bounds"
+	. "inet"
+	"mem"
+	"msi"
+	"pci"
+	"res"
+	"stats"
 )
 
 type ixgbereg_t uint

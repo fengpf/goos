@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"runtime"
 
-	"goos/src/caller"
-	"goos/src/oommsg"
-	"goos/src/tinfo"
+	"caller"
+	"oommsg"
+	"tinfo"
 )
 
 // XXX argument should be Boundkey_t so caller doesn't have to

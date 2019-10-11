@@ -1,8 +1,8 @@
 package proc
 
 import (
-	"goos/src/defs"
-	"goos/src/fdops"
+	"defs"
+	"fdops"
 )
 
 // XXX add all syscalls so that we easily can do syscall interposition.  currently no use.

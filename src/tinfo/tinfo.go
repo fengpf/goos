@@ -5,7 +5,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"goos/src/defs"
+	"defs"
 )
 
 type Tnote_t struct {

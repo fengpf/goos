@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"goos/src/util"
+	"util"
 )
 
 const PGSHIFT uint = 12

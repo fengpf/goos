@@ -4,10 +4,10 @@ import (
 	"os"
 	"sync"
 
-	"goos/src/defs"
-	"goos/src/fdops"
-	"goos/src/fs"
-	"goos/src/mem"
+	"defs"
+	"fdops"
+	"fs"
+	"mem"
 )
 
 //

@@ -5,10 +5,10 @@ import (
 	"sort"
 	"sync"
 
-	"goos/src/bounds"
-	"goos/src/defs"
-	"goos/src/res"
-	"goos/src/stats"
+	"bounds"
+	"defs"
+	"res"
+	"stats"
 )
 
 // Bitmap allocater/marker. Used for inodes, blocks, and orphan inodes.

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"goos/src/hashtable"
-	"goos/src/stats"
+	"hashtable"
+	"stats"
 )
 
 // Cache of objects. Main invariant: an object is in memory once so that threads

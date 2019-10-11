@@ -5,7 +5,7 @@ import (
 	"time"
 	"unsafe"
 
-	"goos/src/util"
+	"util"
 )
 
 type Ip4_t uint32
@@ -39,11 +39,11 @@ func Mac2str(m []uint8) string {
 		m[3], m[4], m[5])
 }
 
-func Htons(v uint16) Be16 {
+func Htons(v uint16) Be16 { //htons(你要的端口)
 	return Be16(v>>8 | (v&0xff)<<8)
 }
 
-func Htonl(v uint32) Be32 {
+func Htonl(v uint32) Be32 { //htonl (3)、ntohl (3) 用来转换 32 位整数
 	r := (v & 0x000000ff) << 24
 	r |= (v & 0x0000ff00) << 8
 	r |= (v & 0x00ff0000) >> 8

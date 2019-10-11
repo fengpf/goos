@@ -8,13 +8,12 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"goos/src/apic"
-
-	"goos/src/fs"
-	"goos/src/mem"
-	"goos/src/msi"
-	"goos/src/pci"
-	"goos/src/stats"
+	"apic"
+	"fs"
+	"mem"
+	"msi"
+	"pci"
+	"stats"
 )
 
 const ahci_debug = false

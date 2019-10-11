@@ -1,6 +1,6 @@
 package fs
 
-import "goos/src/mem"
+import "mem"
 
 type Superblock_t struct {
 	Data *mem.Bytepg_t

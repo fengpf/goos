@@ -3,7 +3,7 @@ package bounds
 import (
 	"runtime"
 
-	"goos/src/res"
+	"res"
 )
 
 type Boundkey_t int

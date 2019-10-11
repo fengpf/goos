@@ -1,15 +1,15 @@
 package ufs
 
-import "os"
-
-import "log"
-
-import "defs"
-import "fd"
-import "fs"
-import "stat"
-import "ustr"
-import "vm"
+import (
+	"defs"
+	"fd"
+	"fs"
+	"log"
+	"os"
+	"stat"
+	"ustr"
+	"vm"
+)
 
 //
 // FS

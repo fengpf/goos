@@ -1,6 +1,6 @@
 package bpath
 
-import "goos/src/ustr"
+import "ustr"
 
 // allocation-less pathparts
 type Pathparts_t struct {

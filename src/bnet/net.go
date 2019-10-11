@@ -10,19 +10,19 @@ import (
 	"time"
 	"unsafe"
 
-	"goos/src/bounds"
-	"goos/src/circbuf"
-	"goos/src/defs"
-	"goos/src/fdops"
-	"goos/src/limits"
-	"goos/src/mem"
-	"goos/src/proc"
-	"goos/src/res"
-	"goos/src/stat"
-	"goos/src/util"
-	"goos/src/vm"
+	"bounds"
+	"circbuf"
+	"defs"
+	"fdops"
+	"limits"
+	"mem"
+	"proc"
+	"res"
+	"stat"
+	"util"
+	"vm"
 
-	. "goos/src/inet"
+	. "inet"
 )
 
 var pagemem mem.Page_i

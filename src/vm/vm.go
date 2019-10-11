@@ -3,10 +3,10 @@ package vm
 import (
 	"fmt"
 
-	"goos/src/defs"
-	"goos/src/fdops"
-	"goos/src/mem"
-	"goos/src/util"
+	"defs"
+	"fdops"
+	"mem"
+	"util"
 )
 
 //import "fd"

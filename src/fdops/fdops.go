@@ -3,10 +3,10 @@ package fdops
 import (
 	"time"
 
-	"goos/src/defs"
-	"goos/src/mem"
-	"goos/src/stat"
-	"goos/src/tinfo"
+	"defs"
+	"mem"
+	"stat"
+	"tinfo"
 )
 
 type Ready_t uint8

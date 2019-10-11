@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"goos/src/defs"
-	"goos/src/mem"
+	"defs"
+	"mem"
 )
 
 var IRQ_DISK int = -1

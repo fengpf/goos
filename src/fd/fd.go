@@ -3,10 +3,10 @@ package fd
 import "sync"
 
 import (
-	"goos/src/bpath"
-	"goos/src/defs"
-	"goos/src/fdops"
-	"goos/src/ustr"
+	"bpath"
+	"defs"
+	"fdops"
+	"ustr"
 )
 
 const (

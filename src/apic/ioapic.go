@@ -3,8 +3,8 @@ package apic
 import (
 	"fmt"
 
-	"goos/src/mem"
-	"goos/src/util"
+	"mem"
+	"util"
 )
 
 type _oride_t struct {

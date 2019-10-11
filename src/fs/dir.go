@@ -5,13 +5,13 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"goos/src/bounds"
-	"goos/src/defs"
-	"goos/src/hashtable"
-	"goos/src/mem"
-	"goos/src/res"
-	"goos/src/ustr"
-	"goos/src/util"
+	"bounds"
+	"defs"
+	"hashtable"
+	"mem"
+	"res"
+	"ustr"
+	"util"
 )
 
 const NAME_MAX int = 512

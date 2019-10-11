@@ -5,9 +5,9 @@ import (
 	"sync"
 	"runtime"
 
-	"goos/src/defs"
-	"goos/src/limits"
-	"goos/src/mem"
+	"defs"
+	"limits"
+	"mem"
 )
 
 const bdev_debug = false

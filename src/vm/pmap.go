@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"goos/src/defs"
-	"goos/src/mem"
+	"defs"
+	"mem"
 )
 
 func _instpg(pg *mem.Pmap_t, idx uint, perms mem.Pa_t) (mem.Pa_t, bool) {

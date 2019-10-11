@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"goos/src/defs"
-	"goos/src/mem"
-	"goos/src/util"
+	"defs"
+	"mem"
+	"util"
 )
 
 var Bsp_apic_id int

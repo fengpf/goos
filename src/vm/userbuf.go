@@ -6,9 +6,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"goos/src/bounds"
-	"goos/src/defs"
-	"goos/src/res"
+	"bounds"
+	"defs"
+	"res"
 )
 
 // a helper object for read/writing from userspace memory. virtual address

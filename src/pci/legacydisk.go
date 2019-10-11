@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"goos/src/apic"
+	"apic"
 )
 
 type legacy_disk_t struct {

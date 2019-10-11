@@ -3,21 +3,20 @@ package proc
 import (
 	"sync"
 	"sync/atomic"
-
 	"fmt"
 	"runtime"
 
-	"goos/src/accnt"
-	"goos/src/bounds"
-	"goos/src/defs"
-	"goos/src/fd"
-	"goos/src/hashtable"
-	"goos/src/limits"
-	"goos/src/mem"
-	"goos/src/res"
-	"goos/src/tinfo"
-	"goos/src/ustr"
-	"goos/src/vm"
+	"accnt"
+	"bounds"
+	"defs"
+	"fd"
+	"hashtable"
+	"limits"
+	"mem"
+	"res"
+	"tinfo"
+	"ustr"
+	"vm"
 )
 
 // per-process limits

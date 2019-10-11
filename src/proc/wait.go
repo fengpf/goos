@@ -3,8 +3,8 @@ package proc
 import (
 	"sync"
 
-	"goos/src/accnt"
-	"goos/src/defs"
+	"accnt"
+	"defs"
 )
 
 // requirements for wait* syscalls (used for processes and threads):

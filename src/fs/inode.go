@@ -6,17 +6,17 @@ import (
 	"sync"
 	"unsafe"
 
-	"goos/src/bounds"
-	"goos/src/defs"
-	"goos/src/fdops"
-	"goos/src/hashtable"
-	"goos/src/limits"
-	"goos/src/mem"
-	"goos/src/res"
-	"goos/src/stat"
-	"goos/src/stats"
-	"goos/src/ustr"
-	"goos/src/util"
+	"bounds"
+	"defs"
+	"fdops"
+	"hashtable"
+	"limits"
+	"mem"
+	"res"
+	"stat"
+	"stats"
+	"ustr"
+	"util"
 )
 
 type inode_stats_t struct {

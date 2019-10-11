@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"goos/src/defs"
-	"goos/src/fdops"
-	. "goos/src/inet"
+	"defs"
+	"fdops"
+	. "inet"
 	"log"
 )
 

@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"goos/src/util"
+	"util"
 )
 
 type Accnt_t struct {

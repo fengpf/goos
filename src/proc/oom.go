@@ -1,12 +1,13 @@
 package proc
 
-import "fmt"
-import "runtime"
-import "time"
 
 import (
-	"goos/src/oommsg"
-	"goos/src/res"
+	"fmt"
+	"runtime"
+	"time"
+	
+	"oommsg"
+	"res"
 )
 
 type oom_t struct {

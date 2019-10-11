@@ -1,13 +1,13 @@
 package unet
 
 import (
-	"goos/src/bnet"
-	"goos/src/defs"
-	"goos/src/fdops"
-	. "goos/src/inet"
-	"goos/src/mem"
-	"goos/src/res"
-	"goos/src/vm"
+	"bnet"
+	"defs"
+	"fdops"
+	. "inet"
+	"mem"
+	"res"
+	"vm"
 )
 
 type pktmem_t struct {

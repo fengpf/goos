@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"goos/src/mem"
+	"mem"
 )
 
 // If you change this, you must change corresponding constants in litc.c

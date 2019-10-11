@@ -1,14 +1,13 @@
 package hashtable
 
-import "sync/atomic"
-import "fmt"
-import "hash/fnv"
-
 import (
+	"fmt"
+	"hash/fnv"
 	"sync"
+	"sync/atomic"
 	"unsafe"
 
-	"goos/src/ustr"
+	"ustr"
 )
 
 // A hashtable with a lock-free Get()

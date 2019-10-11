@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"goos/src/apic"
-	"goos/src/defs"
+	"apic"
+	"defs"
 )
 
 type pciide_disk_t struct {

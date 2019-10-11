@@ -12,8 +12,9 @@ $ GOROOT_BOOTSTRAP=./ GO_GCFLAGS="-N -l" ./make.bash
 ### 设置 GOPATH & GOROOT
 
 ```
-$ export GOPATH=../../
-$ GOROOT=../ && export PATH=$GOROOT/bin:$PATH
+$ export GOROOT=/data/app/go/src/goos/go1.10.1
+$ export GOBIN=$GOROOT/bin
+$ export GOPATH=/data/app/go/src/goos
 ```
 
 

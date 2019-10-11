@@ -1,14 +1,14 @@
 package main
 
 import (
-	"os"
- "fmt"
- "strings"
- "path/filepath"
+	 "os"
+	 "fmt"
+	 "strings"
+	 "path/filepath"
 
- "goos/src/fs"
- "goos/src/ufs"
- "goos/src/ustr"
+	 "fs"
+	 "ufs"
+	 "ustr"
 )
 
 const (

@@ -1,11 +1,12 @@
 package ufs
 
-import "os"
-import "encoding/json"
-import "fmt"
-
-import "fs"
-import "mem"
+import (
+	"encoding/json"
+	"fmt"
+	"fs"
+	"mem"
+	"os"
+)
 
 //
 //  trace file of writes and syncs

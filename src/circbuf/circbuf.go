@@ -1,9 +1,9 @@
 package circbuf
 
 import (
-	"goos/src/defs"
-	"goos/src/fdops"
-	"goos/src/mem"
+	"defs"
+	"fdops"
+	"mem"
 )
 
 // a circular buffer that is read/written by userspace. not thread-safe -- it
