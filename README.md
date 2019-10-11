@@ -21,7 +21,15 @@ $ export GOPATH=/data/app/go/src/goos
 ### 系统启动
 ```
 $ cd goos/
-$ make qemu CPUS=2
+$ make qemu CPUS=1
+
+```
+### qemu gdb 远程调试
+
+```
+$ make qemu-gdb CPUS=1
+$ gdb mkfs
+$ target remote :1234
 ```
 
 

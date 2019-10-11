@@ -1747,7 +1747,7 @@ func main() {
 		if ret != 0 {
 			panic(fmt.Sprintf("exec failed %v", ret))
 		}
-		p.Sched_add(&tf, p.Tid0())
+		p.Sched_add(&tf, p.Tid0())//载入调度器，包括执行系统调用
 	}
 
 	exec(ustr.Ustr("bin/init"))

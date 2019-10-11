@@ -167,3 +167,6 @@
 /fsdir/bin/parrun
 /fsdir/bin/mmapbomb
 /fsdir/bin/mmapbench
+
+#go mod pkg
+/pkg
